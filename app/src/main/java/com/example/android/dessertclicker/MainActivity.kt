@@ -97,6 +97,13 @@ class MainActivity : AppCompatActivity() {
         showCurrentDessert()
     }
 
+    override fun onStart() {
+        super.onStart()
+
+        Log.i("MainActivity", "onStart Called")
+
+    }
+
     /**
      * Determine which dessert to show.
      */
